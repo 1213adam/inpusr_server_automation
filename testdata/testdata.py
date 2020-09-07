@@ -1,0 +1,9 @@
+testdata001=1
+testdata002=testdata001
+testdata003=(1,2)
+testdata004=(3,4)
+testdata005=10
+testdata006=11
+testdata007=[1,2,4,57,67]
+testdata008=1
+testdata009=1

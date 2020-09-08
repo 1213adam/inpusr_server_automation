@@ -2,6 +2,7 @@ node('CentOS') {
 
 	stage('clone code'){
 		//checkout scm
+		sh 'rm -rf inspur_server_automation'
 		sh 'git clone git@github.com:1213adam/inspur_server_automation.git'
 	}
 

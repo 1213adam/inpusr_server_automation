@@ -11,6 +11,12 @@ node('CentOS') {
 		echo 'run testing'
 		sh 'cd inspur_server_automation && chmod 777 *.sh *.py && sh run.sh'
 	}
+	
+	stage('run windows local test'){
+		node(){
+			bat 'dir'
+		}
+	}
 
 	stage('send report'){
 		echo 'send report'

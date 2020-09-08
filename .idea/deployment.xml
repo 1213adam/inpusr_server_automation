@@ -5,7 +5,7 @@
       <paths name="forRemoteLinuxC">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/xliang/inpusr_server_automation" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/xliang/inspur_server_automation" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

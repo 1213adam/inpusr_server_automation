@@ -9,7 +9,7 @@ node('CentOS') {
 
 	stage('run test'){
 		echo 'run testing'
-		sh 'cd inspur_server_automation && run.sh'
+		sh 'cd inspur_server_automation && chmod 777 *.sh *.py && run.sh'
 	}
 
 	stage('send report'){

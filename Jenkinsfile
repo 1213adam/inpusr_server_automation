@@ -14,7 +14,7 @@ node('CentOS') {
 
 	stage('send report'){
 		echo 'send report'
-		robot logFileName: 'log.html', outputFileName: '/output.xml', outputPath: 'inspur_server_automation/rf_report/', reportFileName: 'rf_report.html'
+		robot logFileName: 'log.html', outputFileName: 'output.xml', outputPath: 'inspur_server_automation/rf_report/', reportFileName: 'rf_report.html'
 	}
 
 }

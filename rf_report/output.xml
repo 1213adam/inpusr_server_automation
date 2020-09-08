@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.6.4 on linux)" generated="20200903 23:23:18.985" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.6.4 on linux)" generated="20200908 11:09:07.238" rpa="false">
 <suite id="s1" name="Testsuite" source="/home/xliang/inpusr_server_automation/testsuite">
 <suite id="s1-s1" name="Suite1" source="/home/xliang/inpusr_server_automation/testsuite/suite1.robot">
 <test id="s1-s1-t1" name="TC001">
 <kw name="Testcase001 Hello" library="testcase.test_function1_case">
-<msg timestamp="20200903 23:23:19.020" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20200903 23:23:19.020" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20200903 23:23:19.020" endtime="20200903 23:23:19.020"></status>
+<msg timestamp="20200908 11:09:07.277" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20200908 11:09:07.278" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20200908 11:09:07.277" endtime="20200908 11:09:07.278"></status>
 </kw>
-<status status="PASS" starttime="20200903 23:23:19.019" endtime="20200903 23:23:19.020" critical="yes"></status>
+<status status="PASS" starttime="20200908 11:09:07.276" endtime="20200908 11:09:07.278" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200903 23:23:19.013" endtime="20200903 23:23:19.021"></status>
+<status status="PASS" starttime="20200908 11:09:07.266" endtime="20200908 11:09:07.279"></status>
 </suite>
 <suite id="s1-s2" name="Suite2" source="/home/xliang/inpusr_server_automation/testsuite/suite2.robot">
 <test id="s1-s2-t1" name="TC002">
 <kw name="Testcase001 Hello" library="testcase.test_function1_case">
-<msg timestamp="20200903 23:23:19.025" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20200903 23:23:19.025" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20200903 23:23:19.025" endtime="20200903 23:23:19.025"></status>
+<msg timestamp="20200908 11:09:07.283" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20200908 11:09:07.283" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20200908 11:09:07.283" endtime="20200908 11:09:07.283"></status>
 </kw>
-<status status="PASS" starttime="20200903 23:23:19.024" endtime="20200903 23:23:19.026" critical="yes"></status>
+<status status="PASS" starttime="20200908 11:09:07.283" endtime="20200908 11:09:07.284" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200903 23:23:19.021" endtime="20200903 23:23:19.026"></status>
+<status status="PASS" starttime="20200908 11:09:07.280" endtime="20200908 11:09:07.285"></status>
 </suite>
-<status status="PASS" starttime="20200903 23:23:18.986" endtime="20200903 23:23:19.028"></status>
+<status status="PASS" starttime="20200908 11:09:07.239" endtime="20200908 11:09:07.286"></status>
 </suite>
 <statistics>
 <total>

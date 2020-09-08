@@ -8,7 +8,7 @@ node('CentOS') {
 
 	stage('run test'){
 		echo 'run testing'
-		sh 'run.sh'
+		sh 'cd inspur_server_automation && run.sh'
 	}
 
 	stage('send report'){
